@@ -138,11 +138,10 @@ small, .small {
   stroke-width: 6;
 }
 
-@media only screen and (max-width: 800px) {
+edia only screen and (max-width: 500px) {
   .navbar-toggler {
-	padding-left: 50px;
-	margin-right: 15px;
-	text-align: center;
+	display: block;
+  	width: 100%;
   }
 }
 
