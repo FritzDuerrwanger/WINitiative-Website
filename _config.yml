@@ -1,15 +1,15 @@
-title: "Affiliates"
+title: "Winitiative e.V."
 email: wowthemesnet@gmail.com
-timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+timezone: UTC+2h
+baseurl: "WINitiative-Website"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/4ad55223-b284-4398-8205-c4bac155f6f9.jpg'
 author: Sal
 paginate: 30
 disqus: 'demowebsite'
-locale: en_us
-lang: en_us
+locale: de
+lang: de
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
@@ -24,9 +24,9 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  bjarne:
+    name: Bjarne
+    display_name: Bjarne
     avatar: 'assets/images/sal.png'
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
@@ -43,12 +43,12 @@ authors:
 
 # Social
 social:
-  instagram: https://www.instagram.com/bootstrapstarter/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  instagram: https://www.instagram.com/winitiative/?hl=de
+  facebook: https://chat.whatsapp.com/LBGoeEN4y088OHvIfs3IWt
+
 
 # Plugins
-plugins: 
+plugins:
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-feed

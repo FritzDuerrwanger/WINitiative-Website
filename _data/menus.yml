@@ -1,32 +1,31 @@
 # Top Menu
 topmenu:
 
-- title: Home
+- title: Startseite
   url: ""
 
-- title: About
-  url: "about/"
+- title: Über Uns
+  url: "ueber-uns/"
 
-- title: Contact
-  url: "contact/"
+- title: Mitglied werden
+  url: "mitglied-werden/"
 
-- title: Get this theme  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
-  class: "ml-2 btn btn-dark text-white px-3"
-  external: true
+- title: Kontakt
+  url: "kontakt/"
+
+
 
 # Footer Menu
 footermenu:
 
-- title: Home
+- title: Startseite
   url: ""
 
-- title: Privacy Policy
-  url: "privacy-policy/"
+- title: Datenschutzerklärung
+  url: "datenschutzerklaerung/"
 
-- title: Contact
-  url: "contact/"
+- title: Impressum
+  url: "impressum/"
 
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
-  external: true
+- title: Mitglied werden
+  url: "mitglied-werden/"

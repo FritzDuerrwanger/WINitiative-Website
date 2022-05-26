@@ -1,0 +1,56 @@
+---
+layout: page
+title: Mitgliedsantrag
+permalink: "/mitglied-werden/"
+comments: false
+---
+<span>Hier kannst du deinen Mitgliedsantrag für die WINitiative einreichen. Entweder per Kontaktformular oder indem du das ausgefüllte PDF per E-Mail absendest.</span>
+<head>
+   <style>
+   .column{
+   float: left;
+   width: 50%;
+   padding: 15px;
+
+   }
+
+
+   @media screen and (max-width: 600px) {
+     .column {width: 100%}
+   }
+   </style>
+</head>
+
+<div class="row">
+      <div class="column">
+        <form action="https://formspree.io/f/xbjwwgww" method="POST">
+        <center><h3 style="margin-top: 10px;" class="mb-4">Einfach das Formular ausfüllen und beim nächsten Treffen der Winitiative den Antrag unterschreiben</h3></center>
+        <div class="form-group row">
+        <div class="col-md-6">
+        <input class="form-control" type="text" name="Nachname" placeholder="Nachname*" required>
+        </div>
+        <div class="col-md-6">
+        <input class="form-control" type="text" name="Vorname" placeholder="Vorname*" required>
+      </div>
+      </div>
+      <div class="form-group row">
+      <div class="col-md-6">
+      <input class="form-control" type="email" name="Emailadresse" placeholder="E-mail Addresse*" required>
+      </div>
+      <div class="col-md-6">
+      <input class="form-control" type="text" name="Handynummer" placeholder="Handynummer*" required>
+      </div>
+      <div class="col-md-6">
+      <span style="font-size: 17px">Immatrikliert seit:</span>
+      <input class="form-control" type="text" name="Immatrikulation" placeholder="MM/JJJJ*" required>
+      </div>
+      </div><center><input class="btn btn-dark" type="submit" value="Senden"></center>
+      </form>
+    </div>
+    <div class="column">
+      <center><h3 style="margin-top: 10px">Antrag als PDF Herunterladen und ausgefüllt per E-Mail abschicken</h3></center>
+      <center><object width="300" height="260" type="application/pdf" data="{{site.baseurl}}/downloads/Domschke_et_al._2015_S._1-16.pdf">
+</object></center>
+  <center><button class="btn btn-dark" onclick="location.href='mailto:em@i.l?subject=Mitgliedsantrag';">Abschicken</button></center>
+      </div>
+</div>
