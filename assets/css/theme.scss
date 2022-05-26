@@ -142,7 +142,10 @@ small, .small {
   .navbar-toggler {
 	display: block;
   	width: 100%;
-	margin-bottom: 20px;
+	margin-bottom: -20px;
+  }
+   .mobile-dash {
+    display: none;
   }
 }
 
