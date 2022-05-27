@@ -1,7 +1,7 @@
 title: "Winitiative e.V."
-email: wowthemesnet@gmail.com
-timezone: UTC+2h
-baseurl: "WINitiative-Website"
+email: f.duerrwanger@gmail.com
+timezone: UTC
+baseurl: "/WINitiative-Website/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/4ad55223-b284-4398-8205-c4bac155f6f9.jpg'
@@ -20,7 +20,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: UA-113961478-1
+
 
 # Authors
 authors:
@@ -45,6 +45,7 @@ authors:
 social:
   instagram: https://www.instagram.com/winitiative/?hl=de
   facebook: https://chat.whatsapp.com/LBGoeEN4y088OHvIfs3IWt
+  discord: https://discord.gg/8YSHVDHjBN
 
 
 # Plugins
