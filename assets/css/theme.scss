@@ -205,7 +205,7 @@ small, .small {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 350px) {
  .hero {
     padding: 15px 15px;
 	text-align: center;
@@ -216,6 +216,11 @@ small, .small {
  .icons-center {
     display: block;
     width: 100%;
+  }
+.btn.btn-dark.text-white.px-5.btn-lg{
+    width: 150px;
+    font-size: 13pt;
+    padding-left: 1rem !important;
   }
 }
 
