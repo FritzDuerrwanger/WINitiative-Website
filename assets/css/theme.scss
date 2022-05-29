@@ -154,6 +154,9 @@ small, .small {
   .social-icon {
     margin-right: 0,5rem !important;
   }
+  .d-flex.align-items-center{
+    margin-left: 0 !important;
+  }
 }
 
 /* Burger Menu*/
@@ -182,7 +185,10 @@ small, .small {
     display: inline-block !important;
     width: 20px;
     height: 20px;
-    margin-left: 15px;
+    margin: 5px;
+}
+.d-flex.align-items-center{
+  margin-left: 15px;
 }
 
 /* Sidebar
